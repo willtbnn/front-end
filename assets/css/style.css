@@ -1,0 +1,99 @@
+/* --gold: #e6be31;
+  --bluen: #082b47; */
+body{
+    overflow-x: hidden !important;
+}
+[data-menu="list"]{
+    top:0px;bottom:0;
+    background-color:  rgb(255, 255, 255);
+    transition: all .4s linear;
+}
+[data-menu="list"] .nav-link{
+    color:rgb(0, 0, 0) !important;
+}
+[data-menu="button"]{
+    right: 2rem;
+    z-index: 1001;
+    position: fixed;
+    transition: transform .4s !important;
+}
+[data-menu="button"].active{
+   transform: rotate(45deg);
+}
+span.active:last-child{
+    transform: rotate(-45deg) !important;
+}
+[data-menu="list"] .nav-link:hover{
+    color: #e6be31 !important;
+}
+.dropdown-toggle::after{
+    margin-left:5rem;
+    transition: transform .4s !important;
+}
+p.dropdown.show .dropdown-toggle::after{
+    transform: rotate(-180deg) !important;
+}
+.bottom-menu{
+    bottom:0;
+    margin-top:auto;
+}
+/* Fim itens Nav */
+
+.control-content{
+    margin-left: 13rem !important;
+}
+
+/* section com os graficos */
+.tradingview-widget-copyright {
+    font-size: 13px !important;
+    line-height: 32px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    font-family: 'Trebuchet MS', Arial, sans-serif !important;
+    color: #9db2bd !important;
+}
+
+.tradingview-widget-copyright .blue-text {
+    color: #2196f3 !important;
+}
+
+.tradingview-widget-copyright a {
+    text-decoration: none !important;
+    color: #9db2bd !important;
+}
+
+.tradingview-widget-copyright a:visited {
+    color: #9db2bd !important;
+}
+
+.tradingview-widget-copyright a:hover .blue-text {
+    color: #38acdb !important;
+}
+
+.tradingview-widget-copyright a:active .blue-text {
+    color: #299dcd !important;
+}
+
+.tradingview-widget-copyright a:visited .blue-text {
+    color: #2196f3 !important;
+}
+@media (min-width: 768px)
+{
+    .mr-md-15, .mx-md-15 {
+        margin-right: 15rem !important;
+    }
+}
+@media (max-width: 1540px){
+    .mr-md-15, .mx-md-15 {
+        margin-right: 8rem !important;
+    }
+    
+}
+@media (max-width: 1318px){
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 45% !important
+    }
+}
+
+/* fim */
