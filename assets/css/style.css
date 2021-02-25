@@ -2,6 +2,8 @@
   --bluen: #082b47; */
 body{
     overflow-x: hidden !important;
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Nunito', sans-serif;
 }
 [data-menu="list"]{
     top:0px;bottom:0;
@@ -40,7 +42,7 @@ p.dropdown.show .dropdown-toggle::after{
 /* Fim itens Nav */
 
 .control-content{
-    margin-left: 13rem !important;
+    margin-left: 14.5rem !important;
 }
 
 /* section com os graficos */
