@@ -15,17 +15,17 @@
         </label>
     </div>
     <!-- Caso ele tenha carteira aqui no sistema -->
-    <div class="col-md-12 align-self-center form-check">
+    <div class="col-md-12 align-self-center">
         <div class="form-check">
-            <input class="form-check-input" type="checkbox" checked id="walletid0">
-            <label class="form-check-label" for="walletid0">
-                bitcon
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+            Bitcoin
             </label>
         </div>
         <div class="form-check">
-            <input class="form-check-input" type="checkbox" checked id="walletid1">
-            <label class="form-check-label" for="walletid1">
-                bitcon
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+            Ethereum
             </label>
         </div>
     </div>
@@ -36,7 +36,7 @@
     </div>
     <div class="col-md-6">
         <label for="url" class="form-label">URL</label>
-        <input type="text"name="url" class="form-control" id="url" placeholder="Apartment, studio, or floor">
+        <input type="text"name="url" class="form-control" id="url" placeholder="Endereço da carteira">
     </div>
     <div class="col-12">
         <button type="submit" class="btn btn-primary">Envia Pedido</button>
