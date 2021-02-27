@@ -15,7 +15,7 @@
     <title>Painel de Controle - Dreams finance</title>
 </head>
 <body class="bg-light">
-    <nav class="navbar ">
+<nav class="navbar d-none d-md-block">
         <div class="nav border-end flex-column position-fixed pt-5 mt-0 active" data-menu="list" data-outside="">
             <div class="text-center">
                 <div class="">
@@ -80,6 +80,70 @@
                     </div>                       
                     </div>
                 </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light d-sm-none d-sm-block">
+        <div class="container-fluid">
+            <div class="d-flex">
+                <div class="btn-group">
+                    <span data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="assets/images//Jorge_Nunes.jpg" class="border rounded-circle" alt="" style="max-width:2.2rem;">
+                    </span>
+                    <div class="dropdown-menu">
+                        <div class="border-bottom d-block text-center px-5">
+                            <p class="text-secondary">Jorge Nunues</p>
+                            <p class="text-muted">jlbnunes@live.com</p>
+                        </div>
+                        <a class="dropdown-item" href="configuration">
+                            Configurações
+                        </a>
+                        <a class="dropdown-item" href="/inlogout">
+                            Sair
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/icons/slogan-painel-sm.png" width="170" height="100" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-1x2" viewBox="0 0 16 16">
+                                <path d="M6 1H1v14h5V1zm9 0h-5v5h5V1zm0 9v5h-5v-5h5zM0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V1zm1 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1h-5z"></path>
+                            </svg>
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                                <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                            </svg> 
+                            Financeiro
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="wallet">Suas carteiras</a></li>
+                        <li><a class="dropdown-item" href="shipping">Compr. de Depósito</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="withdrawal">Solicita retirada</a></li>
+                        <li><a class="dropdown-item" href="extracted">Extrato</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="support" class="nav-link text-gold py-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-dots-fill" viewBox="0 0 16 16">
+                                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                            </svg>
+                            Suporte / Tickets
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
