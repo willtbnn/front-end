@@ -1,5 +1,5 @@
 <h1 class="mx-2 py-2 border-bottom">Solicitar retirada</h1>
-<article class="container py-5 my-5 mx-5">
+<article class="container py-5 my-5">
 <form class="row g-4">
     <div class="col-md-3">
         <label for="valor" class="form-label">Valor que deseja retira</label>
